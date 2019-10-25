@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Geodarn
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("fontawesome-4.6.3.min.css");
 @import url("custom.flexslider.css");
 @import url("framework.css");
@@ -27,8 +18,8 @@ File: Layout CSS
 #header{}
 
 #header #logo{margin:30px 0 0 0;}
-#header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
-
+#header #logo h1{margin:0 0 5px 0; padding:0; font-size:22px; text-transform:uppercase; float: left;}
+#header #logo h2{margin: -15px 5px 0 0; padding:0 ;height: 70px;width: 70px; float: left;}
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
@@ -192,6 +183,23 @@ td{border-width:0 1px;}
 #gallery{display:block; width:100%; margin-bottom:50px;}
 #gallery figure figcaption{display:block; width:100%; clear:both;}
 #gallery li{margin-bottom:30px;}
+li .btnbuy {
+    display: flex;
+	margin-top: 10px;
+}
+li.btn_buynow{
+	margin-top: 10px;
+}
+li .btnbuy .btn_buynow{
+margin-right: 20px;    
+}
+li .btnbuy .btn_buynow:hover{
+	background-color:teal;
+}
+li .btnbuy .btn_buyins:hover{
+	background-color:teal;
+}
+
 
 
 /* Font Awesome Social Icons
