@@ -180,7 +180,7 @@ td{border-width:0 1px;}
 
 /* Gallery
 --------------------------------------------------------------------------------------------------------------- */
-#gallery{display:block; width:100%; margin-bottom:50px;}
+#gallery{display:block; width:100%; margin-bottom:50px;}	
 #gallery figure figcaption{display:block; width:100%; clear:both;}
 #gallery li{margin-bottom:30px;}
 li .btnbuy {
@@ -235,7 +235,7 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#C5A059;}
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:rgb(13, 224, 179); border-color:#C5A059;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
@@ -259,6 +259,22 @@ input:focus, textarea:focus, *:required:focus{border-color:#C5A059;}
 .services article .txtwrap{border-color:transparent;}
 .services article:hover .txtwrap, .services .active article .txtwrap{color:#FFFFFF; border-color:#D7D7D7;}
 .services article footer a{color:#FFFFFF; background-color:#C5A059;}
+
+.services article .txtwrap{
+	opacity: 0;
+}
+
+.services article footer {
+	opacity: 1;
+}
+
+.services article .txtwrap:hover{
+	opacity: 1;
+	border-color:transparent;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
 
 #shout .heading{color:#FFFFFF; background:inherit;}
 
