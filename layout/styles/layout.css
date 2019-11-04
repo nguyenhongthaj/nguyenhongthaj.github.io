@@ -95,7 +95,7 @@
 
 /* Transition Fade
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .3s ease-in-out;}
+*, *::before, *::after{transition:all .03s ease-in-out;}
 #mainav form *{transition:none !important;}
 
 
@@ -258,7 +258,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#C5A059;}
 .services article{color:inherit; border-color:#C5A059;}
 .services article .txtwrap{border-color:transparent;}
 .services article:hover .txtwrap, .services .active article .txtwrap{color:#FFFFFF; border-color:#D7D7D7;}
-.services article footer a{color:#FFFFFF; background-color:#C5A059;}
+.services article footer a{color:#FFFFFF; background-color:#FF0000;}
 
 .services article .txtwrap{
 	opacity: 0;
@@ -276,7 +276,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#C5A059;}
 }
 
 
-#shout .heading{color:#FFFFFF; background:inherit;}
+#shout .heading{color:#FFFFFF; background:inherit;font-family: 'Times New Roman', Times, serif;}
 
 
 /* Footer */
@@ -360,7 +360,7 @@ table a, #comments a{background-color:inherit;}
 @media screen and (max-width:750px){
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
-	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto ; margin:0 0 30px 0; padding:0;}
 
 	#topbar, #header{text-align:center;}
 
